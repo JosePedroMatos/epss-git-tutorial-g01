@@ -7,4 +7,8 @@ print(f"{len(df)} days loaded: {df.index[0].date()} to {df.index[-1].date()}")
 # --- members: paste your two lines below this line ---
 from weather.plots import plot_temperature
 print("Plot saved to", plot_temperature(df))
+from weather.temperature import add_tmean
+print(add_tmean(df).head())
+from weather.stats import monthly_summary
+print(monthly_summary(df))
 # --- members: paste your two lines above this line ---
