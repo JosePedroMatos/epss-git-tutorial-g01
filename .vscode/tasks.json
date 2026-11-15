@@ -1,0 +1,23 @@
+{
+  // type "shell", not "process": on Windows a process task cannot start from a ${command:...} variable
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Tutorial: check progress",
+      "type": "shell",
+      "command": { "value": "${command:python.interpreterPath}", "quoting": "strong" },
+      "args": ["tools/check_progress.py"],
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Tutorial: progress page",
+      "type": "shell",
+      "command": { "value": "${command:python.interpreterPath}", "quoting": "strong" },
+      "args": ["tools/check_progress.py", "--serve"],
+      "isBackground": true,
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true },
+      "problemMatcher": []
+    }
+  ]
+}
