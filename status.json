@@ -1,0 +1,67 @@
+{
+ "schema": 1,
+ "repo": "JosePedroMatos/epss-git-tutorial-g01",
+ "source": "github-actions",
+ "updated": "2026-11-15T17:51:20Z",
+ "done": 8,
+ "total": 8,
+ "checkpoints": [
+  {
+   "id": "repo",
+   "part": 0,
+   "title": "Group repository created from the template",
+   "ok": true,
+   "detail": "github.com/JosePedroMatos/epss-git-tutorial-g01"
+  },
+  {
+   "id": "first-push",
+   "part": 1,
+   "title": "Member A's first commit is on GitHub",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "everyone",
+   "part": 1,
+   "title": "All three members have pushed to main",
+   "ok": true,
+   "detail": "4 authors, 10 merge(s)"
+  },
+  {
+   "id": "conflict",
+   "part": 1,
+   "title": "Team name agreed after the conflict",
+   "ok": true,
+   "detail": "\"Rain check\""
+  },
+  {
+   "id": "protected",
+   "part": 2,
+   "title": "main is protected: changes arrive by pull request",
+   "ok": true,
+   "detail": "pull request required before merging"
+  },
+  {
+   "id": "prs",
+   "part": 2,
+   "title": "Three pull requests merged, each approved by a teammate",
+   "ok": true,
+   "detail": "#2 by rsaldanhamatos, #4 by JosePedroMatos, #6 by NaterciaMatias"
+  },
+  {
+   "id": "wired",
+   "part": 2,
+   "title": "Three functions written and used in report.py",
+   "ok": true,
+   "detail": "all three functions are on main and used in report.py"
+  },
+  {
+   "id": "notebook",
+   "part": 3,
+   "title": "Notebook has both new cells and no outputs",
+   "ok": true,
+   "detail": "both new cells are on main, outputs cleared"
+  }
+ ],
+ "problems": []
+}
