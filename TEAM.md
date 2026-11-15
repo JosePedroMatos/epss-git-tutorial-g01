@@ -4,9 +4,9 @@ Team name: (to be decided)
 
 ## Member A
 
-- Name: ...
-- GitHub user: ...
-- Favourite weather: ...
+- Name: José Pedro
+- GitHub user: JosePedroMatos
+- Favourite weather: temperate sunny
 
 ## Member B
 
