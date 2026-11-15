@@ -16,6 +16,6 @@ Team name: (to be decided)
 
 ## Member C
 
-- Name: ...
-- GitHub user: ...
-- Favourite weather: ...
+- Name: Rafael
+- GitHub user: rsaldanhamatos
+- Favourite weather: temperate sunny
