@@ -5,5 +5,6 @@ df = load_station("data/station.csv")
 print(f"{len(df)} days loaded: {df.index[0].date()} to {df.index[-1].date()}")
 
 # --- members: paste your two lines below this line ---
-
+from weather.plots import plot_temperature
+print("Plot saved to", plot_temperature(df))
 # --- members: paste your two lines above this line ---
