@@ -1,6 +1,6 @@
 # Our team
 
-Team name: (to be decided)
+Team name: Rain check
 
 ## Member A
 
